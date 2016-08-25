@@ -14,6 +14,7 @@
 		FB967C1F1D6E7AA3001CF3A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB967C1E1D6E7AA3001CF3A3 /* Assets.xcassets */; };
 		FB967C221D6E7AA3001CF3A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB967C201D6E7AA3001CF3A3 /* LaunchScreen.storyboard */; };
 		FB967C2D1D6E7AA3001CF3A3 /* GITTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB967C2C1D6E7AA3001CF3A3 /* GITTestUITests.m */; };
+		FB9CCD8A1D6E7ED000DAABD8 /* text.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9CCD891D6E7ED000DAABD8 /* text.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		FB967C281D6E7AA3001CF3A3 /* GITTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GITTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB967C2C1D6E7AA3001CF3A3 /* GITTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GITTestUITests.m; sourceTree = "<group>"; };
 		FB967C2E1D6E7AA3001CF3A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9CCD881D6E7ED000DAABD8 /* text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = text.h; sourceTree = "<group>"; };
+		FB9CCD891D6E7ED000DAABD8 /* text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = text.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				FB967C201D6E7AA3001CF3A3 /* LaunchScreen.storyboard */,
 				FB967C231D6E7AA3001CF3A3 /* Info.plist */,
 				FB967C121D6E7AA3001CF3A3 /* Supporting Files */,
+				FB9CCD881D6E7ED000DAABD8 /* text.h */,
+				FB9CCD891D6E7ED000DAABD8 /* text.m */,
 			);
 			path = GITTest;
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 			files = (
 				FB967C1A1D6E7AA3001CF3A3 /* ViewController.m in Sources */,
 				FB967C171D6E7AA3001CF3A3 /* AppDelegate.m in Sources */,
+				FB9CCD8A1D6E7ED000DAABD8 /* text.m in Sources */,
 				FB967C141D6E7AA3001CF3A3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +408,7 @@
 				FB967C331D6E7AA3001CF3A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB967C341D6E7AA3001CF3A3 /* Build configuration list for PBXNativeTarget "GITTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +417,7 @@
 				FB967C361D6E7AA3001CF3A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
