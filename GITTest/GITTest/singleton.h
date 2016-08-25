@@ -28,11 +28,11 @@ static id  instance;\
     \
 }\
 \
-+ (id)copyWithZone:(struct _NSZone *)zone{\
+- (id)copyWithZone:(struct _NSZone *)zone{\
     return  [self allocWithZone:zone];\
 }\
 \
-+ (id)mutableCopyWithZone:(struct _NSZone *)zone{\
+- (id)mutableCopyWithZone:(struct _NSZone *)zone{\
     \
     return  [self allocWithZone:zone];\
 }\
@@ -61,11 +61,11 @@ return instance;\
 \
 }\
 \
-+ (id)copyWithZone:(struct _NSZone *)zone{\
+- (id)copyWithZone:(struct _NSZone *)zone{\
 return  [self allocWithZone:zone];\
 }\
 \
-+ (id)mutableCopyWithZone:(struct _NSZone *)zone{\
+- (id)mutableCopyWithZone:(struct _NSZone *)zone{\
 \
 return  [self allocWithZone:zone];\
 }\
