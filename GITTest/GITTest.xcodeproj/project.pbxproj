@@ -43,6 +43,7 @@
 		FB967C2E1D6E7AA3001CF3A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB9CCD881D6E7ED000DAABD8 /* text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = text.h; sourceTree = "<group>"; };
 		FB9CCD891D6E7ED000DAABD8 /* text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = text.m; sourceTree = "<group>"; };
+		FBB355A21D6ED8CF00FD5F73 /* singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = singleton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 		FB967C111D6E7AA3001CF3A3 /* GITTest */ = {
 			isa = PBXGroup;
 			children = (
+				FBB355A21D6ED8CF00FD5F73 /* singleton.h */,
 				FB967C151D6E7AA3001CF3A3 /* AppDelegate.h */,
 				FB967C161D6E7AA3001CF3A3 /* AppDelegate.m */,
 				FB967C181D6E7AA3001CF3A3 /* ViewController.h */,
