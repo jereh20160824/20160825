@@ -20,7 +20,7 @@
     NSLog(@"syn");
   
 
-    NSLog(@"hahaha")
+    NSLog(@"hahaha");
 }
 
 - (void)didReceiveMemoryWarning {
