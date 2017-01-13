@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"===哈哈==提交啦");
+    NSLog(@"syn");
   
     
 }
