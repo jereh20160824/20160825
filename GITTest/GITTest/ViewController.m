@@ -21,6 +21,9 @@
   
 
     NSLog(@"hahaha");
+    
+    NSLog(@"今天是你的生日，妈妈，我很想你");
+    
 }
 
 - (void)didReceiveMemoryWarning {
