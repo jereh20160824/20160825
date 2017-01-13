@@ -19,7 +19,8 @@
     
     NSLog(@"syn");
   
-    
+
+    NSLog(@"hahaha")
 }
 
 - (void)didReceiveMemoryWarning {
